@@ -1,0 +1,31 @@
+[ {
+  "uid" : "41a1d297b6426b88",
+  "name" : "Validation of the successful borrowing estimate calcualation functionality",
+  "time" : {
+    "start" : 1553348133783,
+    "stop" : 1553348140788,
+    "duration" : 7005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efae6a67c5dc1880",
+  "name" : "Validation of startover functionality which clears all relevent fields",
+  "time" : {
+    "start" : 1553348140789,
+    "stop" : 1553348152730,
+    "duration" : 11941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d25110385754692a",
+  "name" : "Validation for warning message to contact the customer care",
+  "time" : {
+    "start" : 1553348152732,
+    "stop" : 1553348160741,
+    "duration" : 8009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

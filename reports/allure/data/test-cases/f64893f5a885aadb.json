@@ -1,0 +1,461 @@
+{
+  "uid" : "f64893f5a885aadb",
+  "name" : "Validation for warning message to contact the customer care",
+  "fullName" : "validating the borrowing calculator functionality..Validation for warning message to contact the customer care",
+  "historyId" : "dee6559242fc762c3399bcedc4b2b3ea",
+  "time" : {
+    "start" : 1553348074228,
+    "stop" : 1553348076320,
+    "duration" : 2092
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I launch the borrowing calculator webApp",
+      "time" : {
+        "start" : 1553348074229,
+        "stop" : 1553348075969,
+        "duration" : 1740
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/url",
+        "time" : {
+          "start" : 1553348074230,
+          "stop" : 1553348075955,
+          "duration" : 1725
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cb7f8525c95cbf3a",
+          "name" : "Request",
+          "source" : "cb7f8525c95cbf3a.json",
+          "type" : "application/json",
+          "size" : 90
+        }, {
+          "uid" : "1de18d3380204249",
+          "name" : "Response",
+          "source" : "1de18d3380204249.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/9e216bc32b3345d323de06c887dc5833/title",
+        "time" : {
+          "start" : 1553348075958,
+          "stop" : 1553348075967,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9d06f3a96aeb59b9",
+          "name" : "Response",
+          "source" : "9d06f3a96aeb59b9.json",
+          "type" : "application/json",
+          "size" : 131
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should the page title as \"Home loan borrowing power calculator | ANZ\"",
+      "time" : {
+        "start" : 1553348075971,
+        "stop" : 1553348075982,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/9e216bc32b3345d323de06c887dc5833/title",
+        "time" : {
+          "start" : 1553348075973,
+          "stop" : 1553348075981,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d7432fd3caf99308",
+          "name" : "Response",
+          "source" : "d7432fd3caf99308.json",
+          "type" : "application/json",
+          "size" : 131
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"1\" on the text box \"Living expenses\"",
+      "time" : {
+        "start" : 1553348075985,
+        "stop" : 1553348076126,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element",
+        "time" : {
+          "start" : 1553348075986,
+          "stop" : 1553348076000,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1e6acb783e9e2809",
+          "name" : "Request",
+          "source" : "1e6acb783e9e2809.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "1d8e3c83608ac8c2",
+          "name" : "Response",
+          "source" : "1d8e3c83608ac8c2.json",
+          "type" : "application/json",
+          "size" : 135
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element/0.977855117756065-1/element",
+        "time" : {
+          "start" : 1553348076001,
+          "stop" : 1553348076017,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d4609c9c4c7e3625",
+          "name" : "Request",
+          "source" : "d4609c9c4c7e3625.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "5c96526f68bf47c9",
+          "name" : "Response",
+          "source" : "5c96526f68bf47c9.json",
+          "type" : "application/json",
+          "size" : 135
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element/0.977855117756065-2/clear",
+        "time" : {
+          "start" : 1553348076031,
+          "stop" : 1553348076071,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9b749f5335cc9eab",
+          "name" : "Response",
+          "source" : "9b749f5335cc9eab.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element/0.977855117756065-2/value",
+        "time" : {
+          "start" : 1553348076071,
+          "stop" : 1553348076124,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "24607f1b83777ce2",
+          "name" : "Request",
+          "source" : "24607f1b83777ce2.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "e8aa86ada1f839b2",
+          "name" : "Response",
+          "source" : "e8aa86ada1f839b2.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click on the \"Work out how much I could borrow\" button",
+      "time" : {
+        "start" : 1553348076128,
+        "stop" : 1553348076251,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element",
+        "time" : {
+          "start" : 1553348076129,
+          "stop" : 1553348076140,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "531088d186f9f40c",
+          "name" : "Request",
+          "source" : "531088d186f9f40c.json",
+          "type" : "application/json",
+          "size" : 91
+        }, {
+          "uid" : "dc0a98eec7889025",
+          "name" : "Response",
+          "source" : "dc0a98eec7889025.json",
+          "type" : "application/json",
+          "size" : 135
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element",
+        "time" : {
+          "start" : 1553348076142,
+          "stop" : 1553348076153,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "31cdb715703068f9",
+          "name" : "Request",
+          "source" : "31cdb715703068f9.json",
+          "type" : "application/json",
+          "size" : 91
+        }, {
+          "uid" : "4b1780a3251f5f41",
+          "name" : "Response",
+          "source" : "4b1780a3251f5f41.json",
+          "type" : "application/json",
+          "size" : 135
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element/0.977855117756065-3/click",
+        "time" : {
+          "start" : 1553348076155,
+          "stop" : 1553348076249,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4fd92ac5568dede8",
+          "name" : "Response",
+          "source" : "4fd92ac5568dede8.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see error message \"Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.\"",
+      "time" : {
+        "start" : 1553348076253,
+        "stop" : 1553348076317,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element",
+        "time" : {
+          "start" : 1553348076255,
+          "stop" : 1553348076278,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fe354ceaa97f943a",
+          "name" : "Request",
+          "source" : "fe354ceaa97f943a.json",
+          "type" : "application/json",
+          "size" : 83
+        }, {
+          "uid" : "ff570069ff523fcb",
+          "name" : "Response",
+          "source" : "ff570069ff523fcb.json",
+          "type" : "application/json",
+          "size" : 135
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element",
+        "time" : {
+          "start" : 1553348076279,
+          "stop" : 1553348076292,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "71e2e4fc17cbdbdc",
+          "name" : "Request",
+          "source" : "71e2e4fc17cbdbdc.json",
+          "type" : "application/json",
+          "size" : 83
+        }, {
+          "uid" : "1d8c268c7c6b2440",
+          "name" : "Response",
+          "source" : "1d8c268c7c6b2440.json",
+          "type" : "application/json",
+          "size" : 135
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/9e216bc32b3345d323de06c887dc5833/element/0.977855117756065-4/text",
+        "time" : {
+          "start" : 1553348076294,
+          "stop" : 1553348076316,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9441df6ada82bcb6",
+          "name" : "Response",
+          "source" : "9441df6ada82bcb6.json",
+          "type" : "application/json",
+          "size" : 248
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "testClass",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "testMethod",
+    "value" : "Validation for warning message to contact the customer care"
+  }, {
+    "name" : "package",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f64893f5a885aadb.json",
+  "parameterValues" : [ "chrome" ]
+}

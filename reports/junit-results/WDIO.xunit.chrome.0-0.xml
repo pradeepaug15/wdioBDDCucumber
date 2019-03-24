@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="validating_the_borrowing_calculator_functionality_1" timestamp="2019-03-24T00:45:19" time="27.921" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="3663c1bf552d84260750253d09b15bf4"/>
+      <property name="suiteName" value="validating the borrowing calculator functionality.1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="validation_of_the_successful_borrowing_estimate_calcualation_functionality16" timestamp="2019-03-24T00:45:19" time="6.898" tests="14" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="3663c1bf552d84260750253d09b15bf4"/>
+      <property name="suiteName" value="Validation of the successful borrowing estimate calcualation functionality16"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I launch the borrowing calculator webApp10" time="28.125"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I should the page title as &quot;Home loan borrowing power calculator | ANZ&quot;11" time="24.681"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I click on the &quot;Single&quot; radio buton of Application type field18" time="24.666"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I select 0 from the Number of dependants drop down19" time="24.543"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I click on the &quot;Home to live in&quot; Property you would like to buy radio button20" time="24.41"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I enter &quot;80,000&quot; on the text box &quot;Your income (before tax)&quot;21" time="24.288"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I enter &quot;10,000&quot; on the text box &quot;Your other income&quot;22" time="23.989"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I enter &quot;500&quot; on the text box &quot;Living expenses&quot;23" time="23.66"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I enter &quot;0&quot; on the text box &quot;Current home loan repayments&quot;24" time="23.406"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I enter &quot;100&quot; on the text box &quot;Other loan repayments&quot;25" time="23.187"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I enter &quot;0&quot; on the text box &quot;Other commitments&quot;26" time="22.967"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I enter &quot;10,000&quot; on the text box &quot;Total credit card limits&quot;27" time="22.791"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I click on the &quot;Work out how much I could borrow&quot; button28" time="22.503"/>
+    <testcase classname="chrome.Validation of the successful borrowing estimate calcualation functionality16" name="I should see the We estimate you could borrow field with &quot;$479,000&quot; value29" time="22.322"/>
+  </testsuite>
+  <testsuite name="validation_of_startover_functionality_which_clears_all_relevent_fields34" timestamp="2019-03-24T00:45:26" time="10.924" tests="23" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="3663c1bf552d84260750253d09b15bf4"/>
+      <property name="suiteName" value="Validation of startover functionality which clears all relevent fields34"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I launch the borrowing calculator webApp10" time="21.225"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should the page title as &quot;Home loan borrowing power calculator | ANZ&quot;11" time="13.236"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I click on the &quot;Single&quot; radio buton of Application type field37" time="13.214"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I select 0 from the Number of dependants drop down38" time="13.131"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I click on the &quot;Home to live in&quot; Property you would like to buy radio button39" time="13.021"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I enter &quot;80,000&quot; on the text box &quot;Your income (before tax)&quot;40" time="12.91"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I enter &quot;10,000&quot; on the text box &quot;Your other income&quot;41" time="12.589"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I enter &quot;500&quot; on the text box &quot;Living expenses&quot;42" time="12.228"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I enter &quot;0&quot; on the text box &quot;Current home loan repayments&quot;43" time="11.981"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I enter &quot;100&quot; on the text box &quot;Other loan repayments&quot;44" time="11.789"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I enter &quot;0&quot; on the text box &quot;Other commitments&quot;45" time="11.578"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I enter &quot;10,000&quot; on the text box &quot;Total credit card limits&quot;46" time="11.417"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I click on the &quot;Work out how much I could borrow&quot; button47" time="11.141"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I click on the Start over button49" time="10.986"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see the Single is selected on Application type radio button50" time="10.82"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see the No of dependents drop down to be &quot;0&quot;51" time="10.759"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see the Home to live in is selected on Property you would like to buy radio button52" time="10.659"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see &quot;0&quot; on the text box &quot;Your income (before tax)&quot;53" time="10.61"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see &quot;0&quot; on the text box &quot;Your other income&quot;54" time="10.547"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see &quot;0&quot; on the text box &quot;Living expenses&quot;55" time="10.494"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see &quot;0&quot; on the text box &quot;Current home loan repayments&quot;56" time="10.439"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see &quot;0&quot; on the text box &quot;Other loan repayments&quot;57" time="10.392"/>
+    <testcase classname="chrome.Validation of startover functionality which clears all relevent fields34" name="I should see &quot;0&quot; on the text box &quot;Total credit card limits&quot;58" time="10.348"/>
+  </testsuite>
+  <testsuite name="validation_for_warning_message_to_contact_the_customer_care61" timestamp="2019-03-24T00:45:37" time="10.09" tests="5" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="3663c1bf552d84260750253d09b15bf4"/>
+      <property name="suiteName" value="Validation for warning message to contact the customer care61"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Validation for warning message to contact the customer care61" name="I launch the borrowing calculator webApp10" time="10.301"/>
+    <testcase classname="chrome.Validation for warning message to contact the customer care61" name="I should the page title as &quot;Home loan borrowing power calculator | ANZ&quot;11" time="0.708"/>
+    <testcase classname="chrome.Validation for warning message to contact the customer care61" name="I enter &quot;1&quot; on the text box &quot;Living expenses&quot;63" time="0.693"/>
+    <testcase classname="chrome.Validation for warning message to contact the customer care61" name="I click on the &quot;Work out how much I could borrow&quot; button65" time="0.465"/>
+    <testcase classname="chrome.Validation for warning message to contact the customer care61" name="I should see error message &quot;Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.&quot;67" time="0.305"/>
+  </testsuite>
+</testsuites>

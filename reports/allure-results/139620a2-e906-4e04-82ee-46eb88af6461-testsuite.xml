@@ -1,0 +1,855 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1553348435627' stop='1553348444673'>
+    <name>validating the borrowing calculator functionality.</name>
+    <title>validating the borrowing calculator functionality.</title>
+    <test-cases>
+        <test-case start='1553348435629' status='passed' stop='1553348444559'>
+            <name>Validation of the successful borrowing estimate calcualation functionality</name>
+            <title>Validation of the successful borrowing estimate calcualation functionality</title>
+            <labels>
+                <label name='feature' value='validating the borrowing calculator functionality.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1553348435632' status='passed' stop='1553348439139'>
+                    <name>I launch the borrowing calculator webApp</name>
+                    <title>I launch the borrowing calculator webApp</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348435638' status='passed' stop='1553348437978'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/url</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/url</title>
+                            <attachments>
+                                <attachment title='Request' source='00b25d82-641c-42d4-a2d3-688a2dacc555-attachment.json' type='application/json' size='90'/>
+                                <attachment title='Response' source='91b93d84-f3fc-4974-9a47-142ce47211a9-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348437981' status='passed' stop='1553348439116'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window/current/size</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window/current/size</title>
+                            <attachments>
+                                <attachment title='Request' source='daaddd99-94a3-4e5d-851f-805d6c0a5bea-attachment.json' type='application/json' size='40'/>
+                                <attachment title='Response' source='04b365db-47d2-48ce-95f0-a59b12745d3a-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439120' status='passed' stop='1553348439134'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/title</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/title</title>
+                            <attachments>
+                                <attachment title='Response' source='866dc737-8d87-49cc-bba3-d32661eea47f-attachment.json' type='application/json' size='131'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348439141' status='passed' stop='1553348439159'>
+                    <name>I should the page title as "Home loan borrowing power calculator | ANZ"</name>
+                    <title>I should the page title as "Home loan borrowing power calculator | ANZ"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348439143' status='passed' stop='1553348439151'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/title</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/title</title>
+                            <attachments>
+                                <attachment title='Response' source='da6bcfbd-20fb-44aa-90cf-417da405a8a3-attachment.json' type='application/json' size='131'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348439159' status='passed' stop='1553348439263'>
+                    <name>I click on the "Single" radio buton of Application type field</name>
+                    <title>I click on the "Single" radio buton of Application type field</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348439159' status='passed' stop='1553348439191'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='7dfef603-20ca-498f-aea7-aff68affc6da-attachment.json' type='application/json' size='72'/>
+                                <attachment title='Response' source='c7dddabb-a40b-4d21-bea0-77cc50983dc0-attachment.json' type='application/json' size='136'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439195' status='passed' stop='1553348439261'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-1/click</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-1/click</title>
+                            <attachments>
+                                <attachment title='Response' source='4bdbeaf5-ac15-4db6-8472-7e4735715ca9-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348439265' status='passed' stop='1553348439397'>
+                    <name>I select 0 from the Number of dependants drop down</name>
+                    <title>I select 0 from the Number of dependants drop down</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348439266' status='passed' stop='1553348439286'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='09f5cb1f-f655-4cc6-9b3c-c2495563c5c0-attachment.json' type='application/json' size='78'/>
+                                <attachment title='Response' source='872b3937-698c-40c4-bba7-582583bede75-attachment.json' type='application/json' size='136'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439289' status='passed' stop='1553348439307'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-2/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-2/element</title>
+                            <attachments>
+                                <attachment title='Request' source='746a3d1e-0124-4274-a0ff-08b133743927-attachment.json' type='application/json' size='81'/>
+                                <attachment title='Response' source='fbbf749a-49c6-4552-b569-7baf431ee756-attachment.json' type='application/json' size='136'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439316' status='passed' stop='1553348439350'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-3/elements</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-3/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='f171dbac-7b6e-4714-bb19-d4d068fb3c36-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='a8a6fae6-17f7-42b7-85f8-fbb789c91f2f-attachment.json' type='application/json' size='495'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439352' status='passed' stop='1553348439395'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-4/click</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-4/click</title>
+                            <attachments>
+                                <attachment title='Response' source='5caea692-3f1c-4c3a-aa93-8caa521b5c69-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348439399' status='passed' stop='1553348439480'>
+                    <name>I click on the "Home to live in" Property you would like to buy radio button</name>
+                    <title>I click on the "Home to live in" Property you would like to buy radio button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348439400' status='passed' stop='1553348439418'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='5b6aa3ad-8269-4bf1-bdf1-29a021e08e9b-attachment.json' type='application/json' size='65'/>
+                                <attachment title='Response' source='191ec031-0552-4c96-8858-5968e6a00368-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439421' status='passed' stop='1553348439477'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-10/click</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-10/click</title>
+                            <attachments>
+                                <attachment title='Response' source='a5100f46-1595-46a8-b40b-0a2f2d010cd0-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348439482' status='passed' stop='1553348439751'>
+                    <name>I enter "80,000" on the text box "Your income (before tax)"</name>
+                    <title>I enter "80,000" on the text box "Your income (before tax)"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348439483' status='passed' stop='1553348439502'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='35472402-ab1d-4efb-8ea8-0108c3b7e002-attachment.json' type='application/json' size='82'/>
+                                <attachment title='Response' source='efff61c7-674c-4b19-b2c2-9fd1ab2151a1-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439505' status='passed' stop='1553348439523'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-11/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-11/element</title>
+                            <attachments>
+                                <attachment title='Request' source='fba52f5e-46b1-4f24-9470-4a27bf6a03ff-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Response' source='de757bf1-afcc-422f-832e-b8213bcc0ff6-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439527' status='passed' stop='1553348439566'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-12/clear</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-12/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='dc4ab3f2-81e2-4aab-b5cf-3a138e242cbb-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439567' status='passed' stop='1553348439749'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-12/value</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-12/value</title>
+                            <attachments>
+                                <attachment title='Request' source='a4feffbd-cde2-4609-bd3a-10adfface37a-attachment.json' type='application/json' size='123'/>
+                                <attachment title='Response' source='c4e4998d-0ade-4d94-9902-3003f3155a61-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348439753' status='passed' stop='1553348440011'>
+                    <name>I enter "10,000" on the text box "Your other income"</name>
+                    <title>I enter "10,000" on the text box "Your other income"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348439754' status='passed' stop='1553348439773'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='c6f36667-f1c9-4f38-9fc1-491d104f1296-attachment.json' type='application/json' size='75'/>
+                                <attachment title='Response' source='d8a521cc-348c-42bf-8f14-551b59d9c7be-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439774' status='passed' stop='1553348439791'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-13/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-13/element</title>
+                            <attachments>
+                                <attachment title='Request' source='67b8ae54-dc9f-4b07-a915-0b5ecdfdc465-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Response' source='d5ed9bc6-aad0-4ffb-a0b6-42d4561bcb71-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439794' status='passed' stop='1553348439830'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-14/clear</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-14/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='a965ab5a-2857-4d78-a577-27a088fc5c68-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348439830' status='passed' stop='1553348440009'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-14/value</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-14/value</title>
+                            <attachments>
+                                <attachment title='Request' source='e11ba080-c796-48a0-9555-8a07edee67b0-attachment.json' type='application/json' size='123'/>
+                                <attachment title='Response' source='024c3f49-d973-4d00-9322-9ac2772110d3-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348440013' status='passed' stop='1553348440190'>
+                    <name>I enter "500" on the text box "Living expenses"</name>
+                    <title>I enter "500" on the text box "Living expenses"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348440014' status='passed' stop='1553348440033'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='3bbbf9d6-05d5-4531-a4c4-b9ecebedf7b4-attachment.json' type='application/json' size='73'/>
+                                <attachment title='Response' source='3a234018-6b20-42aa-b32b-43c5acc3cee8-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440036' status='passed' stop='1553348440052'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-15/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-15/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a6821f01-3257-404e-953c-7a9061bf3314-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Response' source='bb7c395b-a793-4877-8d1f-5b6c1ef951b8-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440055' status='passed' stop='1553348440092'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-16/clear</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-16/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='d3a21116-bffa-4ad6-84b1-863761f4d40d-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440092' status='passed' stop='1553348440189'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-16/value</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-16/value</title>
+                            <attachments>
+                                <attachment title='Request' source='c5baa7e0-77c5-4fe1-8450-d74437cbc26b-attachment.json' type='application/json' size='81'/>
+                                <attachment title='Response' source='80f94ae2-e022-4a71-9133-c59b9a48163c-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348440192' status='passed' stop='1553348440326'>
+                    <name>I enter "0" on the text box "Current home loan repayments"</name>
+                    <title>I enter "0" on the text box "Current home loan repayments"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348440197' status='passed' stop='1553348440215'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='bb93b301-ab73-4de0-bb95-68353f9b9f91-attachment.json' type='application/json' size='86'/>
+                                <attachment title='Response' source='e6686c3f-36c1-49d9-8eb2-206f70efc3e6-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440217' status='passed' stop='1553348440233'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-17/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-17/element</title>
+                            <attachments>
+                                <attachment title='Request' source='fec56e97-84b1-4a5a-ac5d-91db31a6d5d9-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Response' source='eb049663-7fc6-4269-8c83-1ef6c778edd5-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440236' status='passed' stop='1553348440272'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-18/clear</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-18/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='ecdd758d-1e64-42ff-8757-cdcac633c548-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440272' status='passed' stop='1553348440324'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-18/value</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-18/value</title>
+                            <attachments>
+                                <attachment title='Request' source='4d49c358-02b4-4cf2-bff3-a17cc423e20e-attachment.json' type='application/json' size='53'/>
+                                <attachment title='Response' source='3e05f77c-30f8-486d-a2cb-56e39b908e82-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348440327' status='passed' stop='1553348440501'>
+                    <name>I enter "100" on the text box "Other loan repayments"</name>
+                    <title>I enter "100" on the text box "Other loan repayments"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348440328' status='passed' stop='1553348440346'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f5c350b0-8c87-41ec-8160-04961f40efa4-attachment.json' type='application/json' size='79'/>
+                                <attachment title='Response' source='4d269fcd-9e47-4ba3-886d-e765d66afda8-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440347' status='passed' stop='1553348440364'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-19/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-19/element</title>
+                            <attachments>
+                                <attachment title='Request' source='fe4167c4-e197-4054-badc-f4739ae93940-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Response' source='b6254748-01c1-4338-bdd2-84d59ea1f660-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440366' status='passed' stop='1553348440403'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-20/clear</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-20/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='831f981f-c96e-436b-9bf4-8b3005a62dd1-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440403' status='passed' stop='1553348440499'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-20/value</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-20/value</title>
+                            <attachments>
+                                <attachment title='Request' source='f02563f0-e1fe-4a4a-8050-be6ddbb55767-attachment.json' type='application/json' size='81'/>
+                                <attachment title='Response' source='17326d3e-fff3-4b32-a5c9-4cbcc3721fd5-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348440502' status='passed' stop='1553348440638'>
+                    <name>I enter "0" on the text box "Other commitments"</name>
+                    <title>I enter "0" on the text box "Other commitments"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348440503' status='passed' stop='1553348440521'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='6bbcec22-362b-4697-a6da-7f3a2a1ddc7a-attachment.json' type='application/json' size='75'/>
+                                <attachment title='Response' source='1f374044-e005-4d1c-be3a-98948a493889-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440522' status='passed' stop='1553348440538'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-21/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-21/element</title>
+                            <attachments>
+                                <attachment title='Request' source='0c83d083-ca28-4014-bbe4-6ddd6923169c-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Response' source='3c849891-99cc-4ce8-bb72-092e3cb33798-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440541' status='passed' stop='1553348440577'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-22/clear</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-22/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='28774410-4685-4d83-81f5-b708c70b77bc-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440577' status='passed' stop='1553348440634'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-22/value</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-22/value</title>
+                            <attachments>
+                                <attachment title='Request' source='4a99806a-0042-4ac3-af78-0247b2db38f4-attachment.json' type='application/json' size='53'/>
+                                <attachment title='Response' source='d6f8d319-1099-4a28-99e3-98f4fa7ab3dd-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348440639' status='passed' stop='1553348440885'>
+                    <name>I enter "10,000" on the text box "Total credit card limits"</name>
+                    <title>I enter "10,000" on the text box "Total credit card limits"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348440640' status='passed' stop='1553348440659'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='46da1d61-c1ed-4e17-9c5c-f3ad48b7c15c-attachment.json' type='application/json' size='82'/>
+                                <attachment title='Response' source='58f47aa8-11a1-491d-a328-7cfb9a6bab98-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440660' status='passed' stop='1553348440677'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-23/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-23/element</title>
+                            <attachments>
+                                <attachment title='Request' source='c2212dce-230f-4444-b8ed-5b09976ec769-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Response' source='a8907004-c7a4-499c-80af-6f43b9ccb7d0-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440680' status='passed' stop='1553348440717'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-24/clear</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-24/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='d172db8e-b090-44c6-a5a7-613ec70094a6-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440717' status='passed' stop='1553348440883'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-24/value</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-24/value</title>
+                            <attachments>
+                                <attachment title='Request' source='bf4437b6-b018-417e-99a7-3e943ab6a04f-attachment.json' type='application/json' size='123'/>
+                                <attachment title='Response' source='c9912f18-2a21-462c-8e3d-d680261c079f-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348440887' status='passed' stop='1553348441006'>
+                    <name>I click on the "Work out how much I could borrow" button</name>
+                    <title>I click on the "Work out how much I could borrow" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348440888' status='passed' stop='1553348440905'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='c59a350b-f166-41c7-af1e-69189a0aaa8b-attachment.json' type='application/json' size='91'/>
+                                <attachment title='Response' source='00dafab4-9392-4f27-9db1-4c878698566b-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440910' status='passed' stop='1553348440922'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f8fa7072-c5a2-41b7-9f5a-5e1e17a4cd57-attachment.json' type='application/json' size='91'/>
+                                <attachment title='Response' source='e0a718eb-dac4-44e9-a810-8bb0462f7bff-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348440925' status='passed' stop='1553348441004'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-25/click</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-25/click</title>
+                            <attachments>
+                                <attachment title='Response' source='6f8e9156-d26c-42f7-b7ef-e7d6a94f3c04-attachment.json' type='application/json' size='91'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348441008' status='passed' stop='1553348442115'>
+                    <name>I should see the We estimate you could borrow field with "$479,000" value</name>
+                    <title>I should see the We estimate you could borrow field with "$479,000" value</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348441012' status='passed' stop='1553348441043'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='b428d0fd-7427-4438-9b77-68d221f50543-attachment.json' type='application/json' size='99'/>
+                                <attachment title='Response' source='99d148bc-d9e9-45c0-af76-e3f1e96105db-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348441047' status='passed' stop='1553348441072'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</title>
+                            <attachments>
+                                <attachment title='Response' source='f84e2912-fae0-42a2-8afa-b6e90f44f39f-attachment.json' type='application/json' size='96'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348441548' status='passed' stop='1553348441570'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</title>
+                            <attachments>
+                                <attachment title='Response' source='482f5866-55c8-4923-80a7-fa8c6fc3bad9-attachment.json' type='application/json' size='97'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348442048' status='passed' stop='1553348442068'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</title>
+                            <attachments>
+                                <attachment title='Response' source='db7714fb-8e54-4873-a016-2594fbafb242-attachment.json' type='application/json' size='97'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348442070' status='passed' stop='1553348442089'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f67a7134-3ecf-459a-a582-ea544a1f9214-attachment.json' type='application/json' size='99'/>
+                                <attachment title='Response' source='8c7f1805-6518-47b3-887e-4466ab0b65ec-attachment.json' type='application/json' size='137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348442093' status='passed' stop='1553348442113'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/element/0.8769415114078536-26/text</title>
+                            <attachments>
+                                <attachment title='Response' source='37bd19fb-484c-4688-aecd-9aea122ba52f-attachment.json' type='application/json' size='97'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348442122' status='passed' stop='1553348442130'>
+                    <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window_handles</name>
+                    <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window_handles</title>
+                    <attachments>
+                        <attachment title='Response' source='c2f0caf2-cf4b-426c-b512-a16301764033-attachment.json' type='application/json' size='146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1553348442131' status='passed' stop='1553348444475'>
+                    <name>DELETE /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window</name>
+                    <title>DELETE /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window</title>
+                    <attachments>
+                        <attachment title='Response' source='1c1eef83-33c5-4fe0-8e7f-6d03af31f7d8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1553348444476' status='passed' stop='1553348444549'>
+                    <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window</name>
+                    <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window</title>
+                    <attachments>
+                        <attachment title='Request' source='7dba8ba8-ae39-4eb5-aac5-6338f9076430-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='750ef1ee-5ce0-4dce-a2e2-004349a705b2-attachment.json' type='application/json' size='498'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1553348444552' status='passed' stop='1553348444556'>
+                    <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</name>
+                    <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='bef8da26-2031-464f-87b5-0585cca0ca6f-attachment.json' type='application/json' size='498'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1553348444561' status='broken' stop='1553348444638'>
+            <name>Validation of startover functionality which clears all relevent fields</name>
+            <title>Validation of startover functionality which clears all relevent fields</title>
+            <labels>
+                <label name='feature' value='validating the borrowing calculator functionality.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1553348444562' status='broken' stop='1553348444576'>
+                    <name>I launch the borrowing calculator webApp</name>
+                    <title>I launch the borrowing calculator webApp</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348444563' status='passed' stop='1553348444569'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/url</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/url</title>
+                            <attachments>
+                                <attachment title='Request' source='1a455c1d-6d5f-4428-864b-6fe212827bd5-attachment.json' type='application/json' size='90'/>
+                                <attachment title='Response' source='bfeddffb-a5f0-4186-b933-e3b4f4eaf3e8-attachment.json' type='application/json' size='498'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348444569' status='passed' stop='1553348444573'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='450b0825-aecc-42b9-baff-2b72cf59c616-attachment.json' type='application/json' size='498'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348444577' status='pending' stop='1553348444579'>
+                    <name>I should the page title as "Home loan borrowing power calculator | ANZ"</name>
+                    <title>I should the page title as "Home loan borrowing power calculator | ANZ"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444580' status='pending' stop='1553348444581'>
+                    <name>I click on the "Single" radio buton of Application type field</name>
+                    <title>I click on the "Single" radio buton of Application type field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444582' status='pending' stop='1553348444583'>
+                    <name>I select 0 from the Number of dependants drop down</name>
+                    <title>I select 0 from the Number of dependants drop down</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444585' status='pending' stop='1553348444586'>
+                    <name>I click on the "Home to live in" Property you would like to buy radio button</name>
+                    <title>I click on the "Home to live in" Property you would like to buy radio button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444587' status='pending' stop='1553348444589'>
+                    <name>I enter "80,000" on the text box "Your income (before tax)"</name>
+                    <title>I enter "80,000" on the text box "Your income (before tax)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444590' status='pending' stop='1553348444591'>
+                    <name>I enter "10,000" on the text box "Your other income"</name>
+                    <title>I enter "10,000" on the text box "Your other income"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444592' status='pending' stop='1553348444592'>
+                    <name>I enter "500" on the text box "Living expenses"</name>
+                    <title>I enter "500" on the text box "Living expenses"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444594' status='pending' stop='1553348444594'>
+                    <name>I enter "0" on the text box "Current home loan repayments"</name>
+                    <title>I enter "0" on the text box "Current home loan repayments"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444596' status='pending' stop='1553348444596'>
+                    <name>I enter "100" on the text box "Other loan repayments"</name>
+                    <title>I enter "100" on the text box "Other loan repayments"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444597' status='pending' stop='1553348444598'>
+                    <name>I enter "0" on the text box "Other commitments"</name>
+                    <title>I enter "0" on the text box "Other commitments"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444600' status='pending' stop='1553348444600'>
+                    <name>I enter "10,000" on the text box "Total credit card limits"</name>
+                    <title>I enter "10,000" on the text box "Total credit card limits"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444602' status='pending' stop='1553348444604'>
+                    <name>I click on the "Work out how much I could borrow" button</name>
+                    <title>I click on the "Work out how much I could borrow" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444605' status='pending' stop='1553348444606'>
+                    <name>I click on the Start over button</name>
+                    <title>I click on the Start over button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444607' status='pending' stop='1553348444608'>
+                    <name>I should see the Single is selected on Application type radio button</name>
+                    <title>I should see the Single is selected on Application type radio button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444610' status='pending' stop='1553348444610'>
+                    <name>I should see the No of dependents drop down to be "0"</name>
+                    <title>I should see the No of dependents drop down to be "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444612' status='pending' stop='1553348444612'>
+                    <name>I should see the Home to live in is selected on Property you would like to buy radio button</name>
+                    <title>I should see the Home to live in is selected on Property you would like to buy radio button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444614' status='pending' stop='1553348444616'>
+                    <name>I should see "0" on the text box "Your income (before tax)"</name>
+                    <title>I should see "0" on the text box "Your income (before tax)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444618' status='pending' stop='1553348444619'>
+                    <name>I should see "0" on the text box "Your other income"</name>
+                    <title>I should see "0" on the text box "Your other income"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444620' status='pending' stop='1553348444621'>
+                    <name>I should see "0" on the text box "Living expenses"</name>
+                    <title>I should see "0" on the text box "Living expenses"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444622' status='pending' stop='1553348444623'>
+                    <name>I should see "0" on the text box "Current home loan repayments"</name>
+                    <title>I should see "0" on the text box "Current home loan repayments"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444624' status='pending' stop='1553348444624'>
+                    <name>I should see "0" on the text box "Other loan repayments"</name>
+                    <title>I should see "0" on the text box "Other loan repayments"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444626' status='pending' stop='1553348444626'>
+                    <name>I should see "0" on the text box "Total credit card limits"</name>
+                    <title>I should see "0" on the text box "Total credit card limits"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444629' status='passed' stop='1553348444633'>
+                    <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window_handles</name>
+                    <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window_handles</title>
+                    <attachments>
+                        <attachment title='Response' source='d1b0e55b-23db-4d7a-8ffd-608271f4736e-attachment.json' type='application/json' size='498'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1553348444633' status='passed' stop='1553348444636'>
+                    <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</name>
+                    <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='05ab3bac-8593-47cb-9cc0-f71d03acadb3-attachment.json' type='application/json' size='498'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id
+                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)</message>
+                <stack-trace>Error: A session is either terminated or not started
+                    at url("https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/") -     at D:\ANZAssessment\wdioBDDCucumber\node_modules\wdio-cucumber-framework\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1553348444639' status='broken' stop='1553348444671'>
+            <name>Validation for warning message to contact the customer care</name>
+            <title>Validation for warning message to contact the customer care</title>
+            <labels>
+                <label name='feature' value='validating the borrowing calculator functionality.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1553348444640' status='broken' stop='1553348444651'>
+                    <name>I launch the borrowing calculator webApp</name>
+                    <title>I launch the borrowing calculator webApp</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1553348444641' status='passed' stop='1553348444646'>
+                            <name>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/url</name>
+                            <title>POST /wd/hub/session/f642a05524d5579d68888fbd2377e49b/url</title>
+                            <attachments>
+                                <attachment title='Request' source='18dfdaf7-1704-4402-819a-2adebecebdc9-attachment.json' type='application/json' size='90'/>
+                                <attachment title='Response' source='02919339-b7de-4feb-81ea-925a66c75fea-attachment.json' type='application/json' size='498'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1553348444646' status='passed' stop='1553348444649'>
+                            <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</name>
+                            <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='f258a5c8-48c9-42d8-8ab8-9e8f0fae78d6-attachment.json' type='application/json' size='498'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1553348444652' status='pending' stop='1553348444655'>
+                    <name>I should the page title as "Home loan borrowing power calculator | ANZ"</name>
+                    <title>I should the page title as "Home loan borrowing power calculator | ANZ"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444656' status='pending' stop='1553348444656'>
+                    <name>I enter "1" on the text box "Living expenses"</name>
+                    <title>I enter "1" on the text box "Living expenses"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444658' status='pending' stop='1553348444658'>
+                    <name>I click on the "Work out how much I could borrow" button</name>
+                    <title>I click on the "Work out how much I could borrow" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444660' status='pending' stop='1553348444660'>
+                    <name>I should see error message "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641."</name>
+                    <title>I should see error message "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553348444663' status='passed' stop='1553348444667'>
+                    <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window_handles</name>
+                    <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/window_handles</title>
+                    <attachments>
+                        <attachment title='Response' source='027fe877-96b5-4858-90ef-8a5fdc6d9da4-attachment.json' type='application/json' size='498'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1553348444667' status='passed' stop='1553348444670'>
+                    <name>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</name>
+                    <title>GET /wd/hub/session/f642a05524d5579d68888fbd2377e49b/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='a7022c20-3b3f-4889-b90c-f21951f6d21c-attachment.json' type='application/json' size='498'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id
+                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)</message>
+                <stack-trace>Error: A session is either terminated or not started
+                    at url("https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/") -     at D:\ANZAssessment\wdioBDDCucumber\node_modules\wdio-cucumber-framework\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
