@@ -1,0 +1,2253 @@
+{
+  "uid" : "6784757809bf3d7",
+  "name" : "Validation of startover functionality which clears all relevent fields",
+  "fullName" : "validating the borrowing calculator functionality..Validation of startover functionality which clears all relevent fields",
+  "historyId" : "a6c31db642e2bf15bc17eae8567f7b8f",
+  "time" : {
+    "start" : 1553507532063,
+    "stop" : 1553507544385,
+    "duration" : 12322
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I launch the borrowing calculator webApp",
+      "time" : {
+        "start" : 1553507532066,
+        "stop" : 1553507541228,
+        "duration" : 9162
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/url",
+        "time" : {
+          "start" : 1553507532068,
+          "stop" : 1553507541089,
+          "duration" : 9021
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "326ded6ec963c6cc",
+          "name" : "Request",
+          "source" : "326ded6ec963c6cc.json",
+          "type" : "application/json",
+          "size" : 90
+        }, {
+          "uid" : "d0b0839e2fbaf4ed",
+          "name" : "Response",
+          "source" : "d0b0839e2fbaf4ed.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/window/current/size",
+        "time" : {
+          "start" : 1553507541092,
+          "stop" : 1553507541201,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4918cc4be4a89e63",
+          "name" : "Request",
+          "source" : "4918cc4be4a89e63.json",
+          "type" : "application/json",
+          "size" : 40
+        }, {
+          "uid" : "795d8c7d133b6e18",
+          "name" : "Response",
+          "source" : "795d8c7d133b6e18.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/title",
+        "time" : {
+          "start" : 1553507541204,
+          "stop" : 1553507541227,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f7d83ef20e3c1885",
+          "name" : "Response",
+          "source" : "f7d83ef20e3c1885.json",
+          "type" : "application/json",
+          "size" : 131
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should the page title as \"Home loan borrowing power calculator | ANZ\"",
+      "time" : {
+        "start" : 1553507541228,
+        "stop" : 1553507541231,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/title",
+        "time" : {
+          "start" : 1553507541228,
+          "stop" : 1553507541230,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1a6d1729091bc579",
+          "name" : "Response",
+          "source" : "1a6d1729091bc579.json",
+          "type" : "application/json",
+          "size" : 131
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click on the \"Single\" radio buton of Application type field",
+      "time" : {
+        "start" : 1553507541232,
+        "stop" : 1553507541321,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507541233,
+          "stop" : 1553507541252,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f1fa2e4c40b7ab6e",
+          "name" : "Request",
+          "source" : "f1fa2e4c40b7ab6e.json",
+          "type" : "application/json",
+          "size" : 72
+        }, {
+          "uid" : "3c5588399fe9bbeb",
+          "name" : "Response",
+          "source" : "3c5588399fe9bbeb.json",
+          "type" : "application/json",
+          "size" : 136
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-1/click",
+        "time" : {
+          "start" : 1553507541255,
+          "stop" : 1553507541320,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d6d2c956ec082a14",
+          "name" : "Response",
+          "source" : "d6d2c956ec082a14.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I select 0 from the Number of dependants drop down",
+      "time" : {
+        "start" : 1553507541324,
+        "stop" : 1553507541438,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507541325,
+          "stop" : 1553507541344,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "526b2438b51ae357",
+          "name" : "Request",
+          "source" : "526b2438b51ae357.json",
+          "type" : "application/json",
+          "size" : 78
+        }, {
+          "uid" : "e774ab4d78a766de",
+          "name" : "Response",
+          "source" : "e774ab4d78a766de.json",
+          "type" : "application/json",
+          "size" : 136
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-2/element",
+        "time" : {
+          "start" : 1553507541346,
+          "stop" : 1553507541365,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "968f7f04f50a2e2a",
+          "name" : "Request",
+          "source" : "968f7f04f50a2e2a.json",
+          "type" : "application/json",
+          "size" : 81
+        }, {
+          "uid" : "1f17aeece6d21f09",
+          "name" : "Response",
+          "source" : "1f17aeece6d21f09.json",
+          "type" : "application/json",
+          "size" : 136
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-3/elements",
+        "time" : {
+          "start" : 1553507541368,
+          "stop" : 1553507541385,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "20f3709a4e5616da",
+          "name" : "Request",
+          "source" : "20f3709a4e5616da.json",
+          "type" : "application/json",
+          "size" : 50
+        }, {
+          "uid" : "231bf95565111345",
+          "name" : "Response",
+          "source" : "231bf95565111345.json",
+          "type" : "application/json",
+          "size" : 495
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-4/click",
+        "time" : {
+          "start" : 1553507541385,
+          "stop" : 1553507541435,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bfc8ac515584a423",
+          "name" : "Response",
+          "source" : "bfc8ac515584a423.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click on the \"Home to live in\" Property you would like to buy radio button",
+      "time" : {
+        "start" : 1553507541441,
+        "stop" : 1553507541564,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507541442,
+          "stop" : 1553507541462,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8d1bc42cfe63e420",
+          "name" : "Request",
+          "source" : "8d1bc42cfe63e420.json",
+          "type" : "application/json",
+          "size" : 65
+        }, {
+          "uid" : "824406e082668e2e",
+          "name" : "Response",
+          "source" : "824406e082668e2e.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-10/click",
+        "time" : {
+          "start" : 1553507541465,
+          "stop" : 1553507541561,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d5a97abe65260659",
+          "name" : "Response",
+          "source" : "d5a97abe65260659.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"80,000\" on the text box \"Your income (before tax)\"",
+      "time" : {
+        "start" : 1553507541566,
+        "stop" : 1553507541922,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507541567,
+          "stop" : 1553507541586,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7bb98594956211d",
+          "name" : "Request",
+          "source" : "7bb98594956211d.json",
+          "type" : "application/json",
+          "size" : 82
+        }, {
+          "uid" : "b2661edb3633769c",
+          "name" : "Response",
+          "source" : "b2661edb3633769c.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-11/element",
+        "time" : {
+          "start" : 1553507541587,
+          "stop" : 1553507541602,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6a73b984a264354d",
+          "name" : "Request",
+          "source" : "6a73b984a264354d.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "5a2e71849253b7ac",
+          "name" : "Response",
+          "source" : "5a2e71849253b7ac.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-12/clear",
+        "time" : {
+          "start" : 1553507541605,
+          "stop" : 1553507541719,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e61a0d633a970210",
+          "name" : "Response",
+          "source" : "e61a0d633a970210.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-12/value",
+        "time" : {
+          "start" : 1553507541719,
+          "stop" : 1553507541920,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2ae187360c2e269f",
+          "name" : "Request",
+          "source" : "2ae187360c2e269f.json",
+          "type" : "application/json",
+          "size" : 123
+        }, {
+          "uid" : "16d9c453488f81d9",
+          "name" : "Response",
+          "source" : "16d9c453488f81d9.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"10,000\" on the text box \"Your other income\"",
+      "time" : {
+        "start" : 1553507541923,
+        "stop" : 1553507542271,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507541924,
+          "stop" : 1553507541941,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2569e9e39e0aff42",
+          "name" : "Request",
+          "source" : "2569e9e39e0aff42.json",
+          "type" : "application/json",
+          "size" : 75
+        }, {
+          "uid" : "48bfda27e47e0411",
+          "name" : "Response",
+          "source" : "48bfda27e47e0411.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-13/element",
+        "time" : {
+          "start" : 1553507541942,
+          "stop" : 1553507541958,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2afa154d906d2f9f",
+          "name" : "Request",
+          "source" : "2afa154d906d2f9f.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "352a0a99dd74bc5e",
+          "name" : "Response",
+          "source" : "352a0a99dd74bc5e.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-14/clear",
+        "time" : {
+          "start" : 1553507541961,
+          "stop" : 1553507542082,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "98d47537630cbffa",
+          "name" : "Response",
+          "source" : "98d47537630cbffa.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-14/value",
+        "time" : {
+          "start" : 1553507542082,
+          "stop" : 1553507542268,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6382e7e1afa746c9",
+          "name" : "Request",
+          "source" : "6382e7e1afa746c9.json",
+          "type" : "application/json",
+          "size" : 123
+        }, {
+          "uid" : "a35ab8985b1aaead",
+          "name" : "Response",
+          "source" : "a35ab8985b1aaead.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"500\" on the text box \"Living expenses\"",
+      "time" : {
+        "start" : 1553507542272,
+        "stop" : 1553507542562,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507542273,
+          "stop" : 1553507542290,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "37676a705bd93fd5",
+          "name" : "Request",
+          "source" : "37676a705bd93fd5.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "51b4e46133176e25",
+          "name" : "Response",
+          "source" : "51b4e46133176e25.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-15/element",
+        "time" : {
+          "start" : 1553507542292,
+          "stop" : 1553507542307,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4921efd081d35a18",
+          "name" : "Request",
+          "source" : "4921efd081d35a18.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "109e191fd2772b32",
+          "name" : "Response",
+          "source" : "109e191fd2772b32.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-16/clear",
+        "time" : {
+          "start" : 1553507542310,
+          "stop" : 1553507542433,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c72ecd39ce310124",
+          "name" : "Response",
+          "source" : "c72ecd39ce310124.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-16/value",
+        "time" : {
+          "start" : 1553507542433,
+          "stop" : 1553507542559,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f7a5e83ff445f8",
+          "name" : "Request",
+          "source" : "f7a5e83ff445f8.json",
+          "type" : "application/json",
+          "size" : 81
+        }, {
+          "uid" : "768636832c32f502",
+          "name" : "Response",
+          "source" : "768636832c32f502.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"0\" on the text box \"Current home loan repayments\"",
+      "time" : {
+        "start" : 1553507542564,
+        "stop" : 1553507542765,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507542565,
+          "stop" : 1553507542582,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8536017e0d056396",
+          "name" : "Request",
+          "source" : "8536017e0d056396.json",
+          "type" : "application/json",
+          "size" : 86
+        }, {
+          "uid" : "eb75a41b84aef6c9",
+          "name" : "Response",
+          "source" : "eb75a41b84aef6c9.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-17/element",
+        "time" : {
+          "start" : 1553507542583,
+          "stop" : 1553507542598,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bafd5452615937eb",
+          "name" : "Request",
+          "source" : "bafd5452615937eb.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "79416c9b331083dc",
+          "name" : "Response",
+          "source" : "79416c9b331083dc.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-18/clear",
+        "time" : {
+          "start" : 1553507542601,
+          "stop" : 1553507542708,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "35a76dcfc62e36fa",
+          "name" : "Response",
+          "source" : "35a76dcfc62e36fa.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-18/value",
+        "time" : {
+          "start" : 1553507542708,
+          "stop" : 1553507542762,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fb4cfd8ee1e6a12d",
+          "name" : "Request",
+          "source" : "fb4cfd8ee1e6a12d.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "ef656e16e1ea2354",
+          "name" : "Response",
+          "source" : "ef656e16e1ea2354.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"100\" on the text box \"Other loan repayments\"",
+      "time" : {
+        "start" : 1553507542767,
+        "stop" : 1553507543010,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507542768,
+          "stop" : 1553507542784,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b38cb07eea75dabd",
+          "name" : "Request",
+          "source" : "b38cb07eea75dabd.json",
+          "type" : "application/json",
+          "size" : 79
+        }, {
+          "uid" : "f8e7106dba67c10",
+          "name" : "Response",
+          "source" : "f8e7106dba67c10.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-19/element",
+        "time" : {
+          "start" : 1553507542785,
+          "stop" : 1553507542801,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cfe79e4720db70f8",
+          "name" : "Request",
+          "source" : "cfe79e4720db70f8.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "538d4b9840fc8394",
+          "name" : "Response",
+          "source" : "538d4b9840fc8394.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-20/clear",
+        "time" : {
+          "start" : 1553507542804,
+          "stop" : 1553507542893,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "15943f436e43bd25",
+          "name" : "Response",
+          "source" : "15943f436e43bd25.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-20/value",
+        "time" : {
+          "start" : 1553507542893,
+          "stop" : 1553507543007,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f621db9c57ad2859",
+          "name" : "Request",
+          "source" : "f621db9c57ad2859.json",
+          "type" : "application/json",
+          "size" : 81
+        }, {
+          "uid" : "47d82ed1f757a3ec",
+          "name" : "Response",
+          "source" : "47d82ed1f757a3ec.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"0\" on the text box \"Other commitments\"",
+      "time" : {
+        "start" : 1553507543012,
+        "stop" : 1553507543197,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507543013,
+          "stop" : 1553507543030,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9683b09eabce6073",
+          "name" : "Request",
+          "source" : "9683b09eabce6073.json",
+          "type" : "application/json",
+          "size" : 75
+        }, {
+          "uid" : "f7bb7a74b0969675",
+          "name" : "Response",
+          "source" : "f7bb7a74b0969675.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-21/element",
+        "time" : {
+          "start" : 1553507543041,
+          "stop" : 1553507543061,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "be3775e7be7d6506",
+          "name" : "Request",
+          "source" : "be3775e7be7d6506.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "6fd3b7e289a8eb61",
+          "name" : "Response",
+          "source" : "6fd3b7e289a8eb61.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-22/clear",
+        "time" : {
+          "start" : 1553507543064,
+          "stop" : 1553507543140,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6d33831dc32c822c",
+          "name" : "Response",
+          "source" : "6d33831dc32c822c.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-22/value",
+        "time" : {
+          "start" : 1553507543140,
+          "stop" : 1553507543196,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "dcae1e74588efbe5",
+          "name" : "Request",
+          "source" : "dcae1e74588efbe5.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "ca1f4d3e387dffe",
+          "name" : "Response",
+          "source" : "ca1f4d3e387dffe.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I enter \"10,000\" on the text box \"Total credit card limits\"",
+      "time" : {
+        "start" : 1553507543199,
+        "stop" : 1553507543498,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507543201,
+          "stop" : 1553507543217,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cabec59aa2c4577f",
+          "name" : "Request",
+          "source" : "cabec59aa2c4577f.json",
+          "type" : "application/json",
+          "size" : 82
+        }, {
+          "uid" : "3b8a85c459fb18e0",
+          "name" : "Response",
+          "source" : "3b8a85c459fb18e0.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-23/element",
+        "time" : {
+          "start" : 1553507543218,
+          "stop" : 1553507543234,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6ae17e7ad5bca2c1",
+          "name" : "Request",
+          "source" : "6ae17e7ad5bca2c1.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "1751add26023e722",
+          "name" : "Response",
+          "source" : "1751add26023e722.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-24/clear",
+        "time" : {
+          "start" : 1553507543237,
+          "stop" : 1553507543315,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "92e120ed43733180",
+          "name" : "Response",
+          "source" : "92e120ed43733180.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-24/value",
+        "time" : {
+          "start" : 1553507543315,
+          "stop" : 1553507543496,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "df4293272c23c57e",
+          "name" : "Request",
+          "source" : "df4293272c23c57e.json",
+          "type" : "application/json",
+          "size" : 123
+        }, {
+          "uid" : "28853ef30b534663",
+          "name" : "Response",
+          "source" : "28853ef30b534663.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click on the \"Work out how much I could borrow\" button",
+      "time" : {
+        "start" : 1553507543500,
+        "stop" : 1553507543674,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507543501,
+          "stop" : 1553507543518,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "812f9904daa8ed43",
+          "name" : "Request",
+          "source" : "812f9904daa8ed43.json",
+          "type" : "application/json",
+          "size" : 91
+        }, {
+          "uid" : "cd4b708009f72e69",
+          "name" : "Response",
+          "source" : "cd4b708009f72e69.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507543520,
+          "stop" : 1553507543532,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2f9284b14d1a3195",
+          "name" : "Request",
+          "source" : "2f9284b14d1a3195.json",
+          "type" : "application/json",
+          "size" : 91
+        }, {
+          "uid" : "e5a3cb0ff5bea40c",
+          "name" : "Response",
+          "source" : "e5a3cb0ff5bea40c.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-25/click",
+        "time" : {
+          "start" : 1553507543534,
+          "stop" : 1553507543671,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e8d992a114ad0006",
+          "name" : "Response",
+          "source" : "e8d992a114ad0006.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click on the Start over button",
+      "time" : {
+        "start" : 1553507543677,
+        "stop" : 1553507543823,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507543677,
+          "stop" : 1553507543698,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bb1142b95dd9134b",
+          "name" : "Request",
+          "source" : "bb1142b95dd9134b.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "ea827185b75b7383",
+          "name" : "Response",
+          "source" : "ea827185b75b7383.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-26/click",
+        "time" : {
+          "start" : 1553507543700,
+          "stop" : 1553507543821,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ed3c27e9a69cfdb",
+          "name" : "Response",
+          "source" : "ed3c27e9a69cfdb.json",
+          "type" : "application/json",
+          "size" : 91
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see the Single is selected on Application type radio button",
+      "time" : {
+        "start" : 1553507543824,
+        "stop" : 1553507543888,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507543826,
+          "stop" : 1553507543850,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "964d1cd6bd898a79",
+          "name" : "Request",
+          "source" : "964d1cd6bd898a79.json",
+          "type" : "application/json",
+          "size" : 81
+        }, {
+          "uid" : "c3d8f75ddd52909e",
+          "name" : "Response",
+          "source" : "c3d8f75ddd52909e.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-27/element",
+        "time" : {
+          "start" : 1553507543851,
+          "stop" : 1553507543872,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "477bd2e7939d97bb",
+          "name" : "Request",
+          "source" : "477bd2e7939d97bb.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "374568a23b361410",
+          "name" : "Response",
+          "source" : "374568a23b361410.json",
+          "type" : "application/json",
+          "size" : 136
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-1/attribute/checked",
+        "time" : {
+          "start" : 1553507543875,
+          "stop" : 1553507543887,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "29d4307f96926a1a",
+          "name" : "Response",
+          "source" : "29d4307f96926a1a.json",
+          "type" : "application/json",
+          "size" : 93
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see the No of dependents drop down to be \"0\"",
+      "time" : {
+        "start" : 1553507543890,
+        "stop" : 1553507544017,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507543891,
+          "stop" : 1553507543925,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a424d1517067ac9",
+          "name" : "Request",
+          "source" : "a424d1517067ac9.json",
+          "type" : "application/json",
+          "size" : 78
+        }, {
+          "uid" : "f5bdfd7cbb82b3b9",
+          "name" : "Response",
+          "source" : "f5bdfd7cbb82b3b9.json",
+          "type" : "application/json",
+          "size" : 136
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-2/element",
+        "time" : {
+          "start" : 1553507543926,
+          "stop" : 1553507543952,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "45ade80c5047b0f9",
+          "name" : "Request",
+          "source" : "45ade80c5047b0f9.json",
+          "type" : "application/json",
+          "size" : 81
+        }, {
+          "uid" : "abf63040f8af6",
+          "name" : "Response",
+          "source" : "abf63040f8af6.json",
+          "type" : "application/json",
+          "size" : 136
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-3/elements",
+        "time" : {
+          "start" : 1553507543954,
+          "stop" : 1553507543983,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f48edb6a2190f0bf",
+          "name" : "Request",
+          "source" : "f48edb6a2190f0bf.json",
+          "type" : "application/json",
+          "size" : 62
+        }, {
+          "uid" : "8f8081438434adf4",
+          "name" : "Response",
+          "source" : "8f8081438434adf4.json",
+          "type" : "application/json",
+          "size" : 160
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-4/text",
+        "time" : {
+          "start" : 1553507543984,
+          "stop" : 1553507544015,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "abd0042e8087ca09",
+          "name" : "Response",
+          "source" : "abd0042e8087ca09.json",
+          "type" : "application/json",
+          "size" : 90
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see the Home to live in is selected on Property you would like to buy radio button",
+      "time" : {
+        "start" : 1553507544019,
+        "stop" : 1553507544078,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507544020,
+          "stop" : 1553507544037,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "84a34bef43a1a9a7",
+          "name" : "Request",
+          "source" : "84a34bef43a1a9a7.json",
+          "type" : "application/json",
+          "size" : 81
+        }, {
+          "uid" : "6018ca8863ed8822",
+          "name" : "Response",
+          "source" : "6018ca8863ed8822.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-27/element",
+        "time" : {
+          "start" : 1553507544038,
+          "stop" : 1553507544052,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2e94e84d005e7184",
+          "name" : "Request",
+          "source" : "2e94e84d005e7184.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "823c53b2046a8d9a",
+          "name" : "Response",
+          "source" : "823c53b2046a8d9a.json",
+          "type" : "application/json",
+          "size" : 136
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-1/attribute/checked",
+        "time" : {
+          "start" : 1553507544055,
+          "stop" : 1553507544077,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b32d5256580b8623",
+          "name" : "Response",
+          "source" : "b32d5256580b8623.json",
+          "type" : "application/json",
+          "size" : 93
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see \"0\" on the text box \"Your income (before tax)\"",
+      "time" : {
+        "start" : 1553507544078,
+        "stop" : 1553507544136,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507544078,
+          "stop" : 1553507544098,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b50b61d57f6456c7",
+          "name" : "Request",
+          "source" : "b50b61d57f6456c7.json",
+          "type" : "application/json",
+          "size" : 82
+        }, {
+          "uid" : "665f275333ee1909",
+          "name" : "Response",
+          "source" : "665f275333ee1909.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-11/element",
+        "time" : {
+          "start" : 1553507544099,
+          "stop" : 1553507544120,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5c46bb14405689d6",
+          "name" : "Request",
+          "source" : "5c46bb14405689d6.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "3655b9f9959d6855",
+          "name" : "Response",
+          "source" : "3655b9f9959d6855.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-12/attribute/value",
+        "time" : {
+          "start" : 1553507544121,
+          "stop" : 1553507544135,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e47f85d8c76b7304",
+          "name" : "Response",
+          "source" : "e47f85d8c76b7304.json",
+          "type" : "application/json",
+          "size" : 90
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see \"0\" on the text box \"Your other income\"",
+      "time" : {
+        "start" : 1553507544138,
+        "stop" : 1553507544186,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507544138,
+          "stop" : 1553507544153,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "dba7592dcfbd0099",
+          "name" : "Request",
+          "source" : "dba7592dcfbd0099.json",
+          "type" : "application/json",
+          "size" : 75
+        }, {
+          "uid" : "82f7845eeddff18b",
+          "name" : "Response",
+          "source" : "82f7845eeddff18b.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-13/element",
+        "time" : {
+          "start" : 1553507544154,
+          "stop" : 1553507544174,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "accfa3d198b5b780",
+          "name" : "Request",
+          "source" : "accfa3d198b5b780.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "105100c4f040bce1",
+          "name" : "Response",
+          "source" : "105100c4f040bce1.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-14/attribute/value",
+        "time" : {
+          "start" : 1553507544176,
+          "stop" : 1553507544185,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9ac5964825e26de",
+          "name" : "Response",
+          "source" : "9ac5964825e26de.json",
+          "type" : "application/json",
+          "size" : 90
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see \"0\" on the text box \"Living expenses\"",
+      "time" : {
+        "start" : 1553507544188,
+        "stop" : 1553507544255,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507544189,
+          "stop" : 1553507544202,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "379a2731f7f548e6",
+          "name" : "Request",
+          "source" : "379a2731f7f548e6.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "b7809746656653da",
+          "name" : "Response",
+          "source" : "b7809746656653da.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-15/element",
+        "time" : {
+          "start" : 1553507544209,
+          "stop" : 1553507544236,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a7ad26143465d859",
+          "name" : "Request",
+          "source" : "a7ad26143465d859.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "f036269f8a791330",
+          "name" : "Response",
+          "source" : "f036269f8a791330.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-16/attribute/value",
+        "time" : {
+          "start" : 1553507544238,
+          "stop" : 1553507544254,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "baf69672cdb49a16",
+          "name" : "Response",
+          "source" : "baf69672cdb49a16.json",
+          "type" : "application/json",
+          "size" : 90
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see \"0\" on the text box \"Current home loan repayments\"",
+      "time" : {
+        "start" : 1553507544257,
+        "stop" : 1553507544298,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507544258,
+          "stop" : 1553507544270,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9da212381c59dcb5",
+          "name" : "Request",
+          "source" : "9da212381c59dcb5.json",
+          "type" : "application/json",
+          "size" : 86
+        }, {
+          "uid" : "d81b495abfed4663",
+          "name" : "Response",
+          "source" : "d81b495abfed4663.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-17/element",
+        "time" : {
+          "start" : 1553507544271,
+          "stop" : 1553507544286,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fc0ce90ace0ce5b7",
+          "name" : "Request",
+          "source" : "fc0ce90ace0ce5b7.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "8ec43b2194ff875e",
+          "name" : "Response",
+          "source" : "8ec43b2194ff875e.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-18/attribute/value",
+        "time" : {
+          "start" : 1553507544289,
+          "stop" : 1553507544297,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6b1e953b2f6b0db6",
+          "name" : "Response",
+          "source" : "6b1e953b2f6b0db6.json",
+          "type" : "application/json",
+          "size" : 90
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see \"0\" on the text box \"Other loan repayments\"",
+      "time" : {
+        "start" : 1553507544300,
+        "stop" : 1553507544340,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507544301,
+          "stop" : 1553507544312,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "51713b30d5842289",
+          "name" : "Request",
+          "source" : "51713b30d5842289.json",
+          "type" : "application/json",
+          "size" : 79
+        }, {
+          "uid" : "63a669cbbdfc2ae1",
+          "name" : "Response",
+          "source" : "63a669cbbdfc2ae1.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-19/element",
+        "time" : {
+          "start" : 1553507544313,
+          "stop" : 1553507544329,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "32112b3c54df7594",
+          "name" : "Request",
+          "source" : "32112b3c54df7594.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "3412d1015c206a6b",
+          "name" : "Response",
+          "source" : "3412d1015c206a6b.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-20/attribute/value",
+        "time" : {
+          "start" : 1553507544331,
+          "stop" : 1553507544339,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "50b9252d726ece80",
+          "name" : "Response",
+          "source" : "50b9252d726ece80.json",
+          "type" : "application/json",
+          "size" : 90
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I should see \"0\" on the text box \"Total credit card limits\"",
+      "time" : {
+        "start" : 1553507544342,
+        "stop" : 1553507544383,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element",
+        "time" : {
+          "start" : 1553507544343,
+          "stop" : 1553507544353,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "91cdce36e937fcf6",
+          "name" : "Request",
+          "source" : "91cdce36e937fcf6.json",
+          "type" : "application/json",
+          "size" : 82
+        }, {
+          "uid" : "f26f56e10ec95f40",
+          "name" : "Response",
+          "source" : "f26f56e10ec95f40.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-23/element",
+        "time" : {
+          "start" : 1553507544355,
+          "stop" : 1553507544371,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5d3bec0dff6de18c",
+          "name" : "Request",
+          "source" : "5d3bec0dff6de18c.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "4dd716d1450c1cf",
+          "name" : "Response",
+          "source" : "4dd716d1450c1cf.json",
+          "type" : "application/json",
+          "size" : 137
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /wd/hub/session/b8e1dc5a181355b32edf3f0fc796bd97/element/0.9366339414439755-24/attribute/value",
+        "time" : {
+          "start" : 1553507544373,
+          "stop" : 1553507544382,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6a7881013d908a35",
+          "name" : "Response",
+          "source" : "6a7881013d908a35.json",
+          "type" : "application/json",
+          "size" : 90
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 96,
+    "hasContent" : true,
+    "attachmentsCount" : 123,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "testClass",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "testMethod",
+    "value" : "Validation of startover functionality which clears all relevent fields"
+  }, {
+    "name" : "package",
+    "value" : "validating the borrowing calculator functionality."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ac1a5b322f6b4424",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553507080325,
+        "stop" : 1553507084283,
+        "duration" : 3958
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6784757809bf3d7.json",
+  "parameterValues" : [ "chrome" ]
+}

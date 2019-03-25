@@ -88,12 +88,14 @@ import Page from './page';
       return this.borrowErrorText.getText();
     }
 
+// This reusable function accepts the web element object and waits upto 5 sec's to compare the web element object exsits. 
     explicitWaitElementPresent(elem){
       browser.waitUntil(() => {
         return elem !== null
       }, 5000, 'expected text to be different after 5s');
     }
 
+// This reusable function accepts the web element object and waits upto 5 sec's to get the text of it and compares. 
     explicitWaitTextPresent(elem, textToCompare){
       browser.waitUntil(() => {
         return elem.getText() === textToCompare

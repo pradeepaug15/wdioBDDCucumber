@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//div[label=\"Total credit card limits\"]"
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "validating the borrowing calculator functionality",
+    "children" : [ {
+      "name" : "Validation of the successful borrowing estimate calcualation functionality",
+      "uid" : "30f0fa29cc76c36b",
+      "parentUid" : "800424f69ef9445674426b6b0611941c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553507523826,
+        "stop" : 1553507532061,
+        "duration" : 8235
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Validation of startover functionality which clears all relevent fields",
+      "uid" : "6784757809bf3d7",
+      "parentUid" : "800424f69ef9445674426b6b0611941c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553507532063,
+        "stop" : 1553507544385,
+        "duration" : 12322
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Validation for warning message to contact the customer care",
+      "uid" : "afce041624ec92da",
+      "parentUid" : "800424f69ef9445674426b6b0611941c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553507544386,
+        "stop" : 1553507554701,
+        "duration" : 10315
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "800424f69ef9445674426b6b0611941c"
+  } ]
+}
