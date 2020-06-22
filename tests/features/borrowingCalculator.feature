@@ -26,7 +26,7 @@ And I enter "100" on the text box "Other loan repayments"
 And I enter "0" on the text box "Other commitments"
 And I enter "10,000" on the text box "Total credit card limits"
 When I click on the "Work out how much I could borrow" button
-Then I should see the We estimate you could borrow field with "$479,000" value
+Then I should see the We estimate you could borrow field with "$488,000" value
 
 
 
@@ -64,4 +64,4 @@ Given I enter "1" on the text box "Living expenses"
 
 When I click on the "Work out how much I could borrow" button
 
-Then I should see error message "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641."
+Then I should see error message "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500."
