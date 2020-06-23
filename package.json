@@ -11,7 +11,7 @@
     "getUrl": "https://github.com/pradeepaug15/wdioBDDCucumber.git"
   },
   "scripts": {
-    "test:unit": "jest --config=jest.json --detectOpenHandles",
+    "test:unit": "jest --config=./config/jest.json --detectOpenHandles",
     "test:features": "node node_modules/webdriverio/bin/wdio ./config/wdioBDD.config.js",
     "allure-report": "node_modules/.bin/allure generate ./reports/allure-results -c && allure open",
     "selenium-postinstall": "node node_modules/.bin/selenium-standalone install",
