@@ -3,7 +3,7 @@ var tags = ['@done'];
 exports.config = {
     
     specs: [
-        './tests/features/**/*.feature',
+        './src/features/**/*.feature',
     ],
     // Patterns to exclude.
     exclude: [
@@ -70,7 +70,7 @@ exports.config = {
 
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
-        require: ['./tests/stepDefs/given.js', './tests/stepDefs/when.js', './tests/stepDefs/then.js'],   // <string[]> (file/dir) require files before executing features
+        require: ['./src/stepDefs/given.js', './src/stepDefs/when.js', './src/stepDefs/then.js'],   // <string[]> (file/dir) require files before executing features
         backtrace: true,    // <boolean> show full backtrace for errors
         compiler: ['js:babel-core/register'], // <string[]> filetype:compiler used for processing required features
         failAmbiguousDefinitions: true,       // <boolean< Treat ambiguous definitions as errors
