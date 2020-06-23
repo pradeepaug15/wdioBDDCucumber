@@ -3,8 +3,16 @@
   "version": "1.0.1",
   "description": "WebDriver bindings for Node.js with Cucumber",
   "main": "index.js",
+  "contributors": [
+    "Pradeep Anjanappa <github@pradeepaug15>"
+  ],
+   "repository": {
+    "type": "git",
+    "getUrl": "https://github.com/pradeepaug15/wdioBDDCucumber.git"
+  },
   "scripts": {
-    "test": "node node_modules/webdriverio/bin/wdio ./config/wdioBDD.config.js",
+    "test:unit": "jest --config=jest.json --detectOpenHandles",
+    "test:features": "node node_modules/webdriverio/bin/wdio ./config/wdioBDD.config.js",
     "allure-report": "node_modules/.bin/allure generate ./reports/allure-results -c && allure open",
     "selenium-postinstall": "node node_modules/.bin/selenium-standalone install",
     "selenium-start": "node_modules/.bin/selenium-standalone start",
