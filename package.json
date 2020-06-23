@@ -6,7 +6,7 @@
   "contributors": [
     "Pradeep Anjanappa <github@pradeepaug15>"
   ],
-   "repository": {
+  "repository": {
     "type": "git",
     "getUrl": "https://github.com/pradeepaug15/wdioBDDCucumber.git"
   },
